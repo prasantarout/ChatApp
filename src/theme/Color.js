@@ -1,0 +1,20 @@
+export const Colors = {
+    themeblue: '#060C30',
+    bottombutton: '#8E6BF2',
+    darkblue: '#030721',
+    pink: '#D73F9D',
+    cardview: '#0E1648',
+    lightpink: '#B9A4F4',
+    lightgreen: '#2AE8AB',
+    yellow: '#DCE024',
+    red: '#B4262C',
+    orange: '#FF7A00',
+    placeholder: '#39458C',
+  
+    buttoncolor: '#5652E5',
+    white: '#FFFFFF',
+    // placeholder:'#8A8CB3',
+    yellow: '#FFCB46',
+    txtcolor: '#8A8CB3',
+    black: '#000000',
+  };
