@@ -1,6 +1,5 @@
 import { View, Text,ImageBackground,StatusBar,StyleSheet, Dimensions} from 'react-native'
 import React, { useEffect } from 'react'
- import logo from '../../assets/images/logo.png'
 const {height,width}=Dimensions.get('window')
 const STATUS_BAR_HEIGHT = Platform.OS === 'ios' ? 10 : StatusBar.currentHeight;
 
@@ -8,7 +7,7 @@ const STATUS_BAR_HEIGHT = Platform.OS === 'ios' ? 10 : StatusBar.currentHeight;
 const SplashScreen = ({navigation}) => {
   useEffect(()=>{
     setTimeout(()=>{
-      navigation.navigate('Message')
+      navigation.navigate('BottomTab')
     },1000)
   },[])
 
@@ -20,7 +19,7 @@ const SplashScreen = ({navigation}) => {
         width:width,
         height:height
       }}
-       source={logo}
+      //  source={logo}
     />
   </View>
   </>

@@ -233,7 +233,7 @@ const Message = ({navigation}) => {
               alignItems: 'center',
               flexDirection: 'row',
               margin: 15,
-              bottom: 50,
+              bottom:Platform.OS=='android' ? 1:50,
             }}>
             <View style={{}}>
               <Text style={{fontSize: 18, color: 'white', fontWeight: 'bold'}}>

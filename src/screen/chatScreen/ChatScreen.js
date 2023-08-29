@@ -20,7 +20,7 @@ import {
 } from 'react-native';
 import React, {useState, useEffect, useRef} from 'react';
 
-import icon from '../../assets/images/user.png';
+// import icon from '../../assets/images/user.png';
 import {io} from 'socket.io-client';
 import GeneralStatusBarColor from '../../utils/StatusBar';
 const {height, width} = Dimensions.get('window');
